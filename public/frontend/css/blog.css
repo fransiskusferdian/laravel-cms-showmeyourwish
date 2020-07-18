@@ -1,0 +1,21 @@
+.blog-category {
+    text-align: center;
+}
+
+.blog-category ul li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.blog-category ul li:hover {
+    background: black;
+    color: #ffffff;
+}
